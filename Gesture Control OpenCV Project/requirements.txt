@@ -1,0 +1,26 @@
+# ─────────────────────────────────────────────────────────────────
+#  Virtual Mouse & Keyboard via Hand Gestures
+#  Requirements
+# ─────────────────────────────────────────────────────────────────
+
+# Core computer vision & ML
+opencv-python>=4.9.0
+mediapipe>=0.10.9
+
+# System automation
+pyautogui>=0.9.54
+pyperclip>=1.8.2          # clipboard support (used by keyboard controller)
+
+# Linux audio (optional – used if pycaw is not available)
+# pulsectl>=23.5.2
+
+# macOS brightness CLI: `brew install brightness`  (no pip package)
+
+# Windows audio
+# pycaw>=20230407           # uncomment on Windows
+
+# Windows brightness
+# wmi>=1.5.1                # uncomment on Windows
+
+# Numpy (usually already installed with opencv)
+numpy>=1.24.0
